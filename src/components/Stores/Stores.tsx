@@ -174,6 +174,19 @@ export const Wrapper = styled.section`
       }
     }
   }
+  @media only screen and (max-width: 1279px) {
+    .stores__information-container {
+      margin-right: 20px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .stores__information-container {
+      margin-right: 20px;
+      .stores__information {
+        width: calc(100vw - 40px);
+      }
+    }
+  }
 `;
 
 export default Stores;

@@ -217,6 +217,12 @@ export const Wrapper = styled.section`
       }
     }
   }
+  @media only screen and (max-width: 1279px) {
+    margin-left: 20px;
+  }
+  @media only screen and (max-width: 768px) {
+    margin-left: 20px;
+  }
 `;
 
 export default Work;

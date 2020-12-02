@@ -8,7 +8,6 @@ import styled from "styled-components";
 // Common Imports
 
 // Components Imports
-import { Configuration, Work, Galery, Stores } from "../";
 
 // API Imports
 

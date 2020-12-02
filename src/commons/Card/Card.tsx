@@ -42,7 +42,7 @@ type WrapperProps = {
 };
 
 export const Wrapper = styled.div<WrapperProps>`
-  width: 100%;
+  width: 240px;
   height: 240px;
   position: relative;
   display: flex;

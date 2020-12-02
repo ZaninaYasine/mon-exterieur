@@ -128,6 +128,30 @@ export const Wrapper = styled.footer`
       }
     }
   }
+  @media only screen and (max-width: 1279px) {
+    .footer__content {
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 20px;
+      .footer__logo {
+        grid-column: span 3;
+        margin: 25px auto;
+      }
+      .footer__links,
+      .footer__contact,
+      .footer__work-time {
+        align-items: center;
+      }
+      * {
+        text-align: center;
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .footer__content {
+      grid-template-columns: 1fr 1fr;
+      padding: 20px;
+    }
+  }
 `;
 
 export default Footer;
