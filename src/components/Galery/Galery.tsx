@@ -84,6 +84,7 @@ export const Wrapper = styled.section`
   .galery__description {
     width: 100%;
     height: 100%;
+    min-height: 414px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -136,6 +137,14 @@ export const Wrapper = styled.section`
       align-items: center;
       background: transparent;
     }
+  }
+  @media only screen and (max-width: 1279px) {
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+  }
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    margin: 20px;
   }
 `;
 

@@ -103,6 +103,28 @@ export const Wrapper = styled.div`
     transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
     z-index: 999;
   }
+  @media only screen and (max-width: 1279px) {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    .icon__logo {
+      transform: scale(0.8) rotate(-25deg);
+      left: -20px;
+    }
+    .icon__arrow {
+      right: 100px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    .icon__logo {
+      transform: scale(0.8) rotate(-25deg);
+      left: -20px;
+    }
+    .icon__arrow {
+      right: 80px;
+    }
+  }
 `;
 
 export default Configuration;
